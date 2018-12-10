@@ -1,0 +1,11 @@
+{
+    "window.zoomLevel": -1,
+    "workbench.activityBar.visible": true,
+    "git.enableSmartCommit": true,
+    "editor.fontSize": 20,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    // "terminal.integrated.fontSize"
+
+
+}
