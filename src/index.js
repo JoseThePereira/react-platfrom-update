@@ -4,6 +4,7 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import Navbar from "./components/topNavbar";
 import "./Style/navBar.css";
+import "./Style/fonts.css";
 
 ReactDOM.render(<Navbar />, document.getElementById("root"));
 

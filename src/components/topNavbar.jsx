@@ -1,84 +1,49 @@
 import React, { Component } from "react";
+import logo from "../images/Logos/logo.jpg";
+import flag from "../images/Logos/usa.svg";
 
 class Navbar extends Component {
   render() {
     return (
-      <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">
-            Navbar
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon" />
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">
-                  Home <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">
-                    Action
-                  </a>
-                  <a class="dropdown-item" href="#">
-                    Another action
-                  </a>
-                  <div class="dropdown-divider" />
-                  <a class="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">
-                  Disabled
-                </a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input
-                class="form-control mr-sm-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button
-                class="btn btn-outline-success my-2 my-sm-0"
-                type="submit"
-              >
-                Search
+      <div className="navBar">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <img src={logo} alt="Logo" />
+            </div>
+            <div class="col-sm">
+              <button type="button" class="btn btn-light">
+                HOME
               </button>
-            </form>
+            </div>
+            <div class="col-sm">
+              <button type="button" class="btn btn-light">
+                JOIN ME/US
+              </button>
+            </div>
+            <div class="col-sm">
+              <button type="button" class="btn btn-light">
+                CONTACT ME/US
+              </button>
+            </div>
+            <div class="col-sm selector btn">
+              <div class="row">
+                <div class="col-sm ">
+                  <img src={flag} alt="Logo" />
+                </div>
+                <div class="col-sm States">
+                  <p>English</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <button type="button" class="btn btn-dark">
+                <i class="material-icons">dehaze</i>
+                Menu
+              </button>
+            </div>
           </div>
-        </nav>
+        </div>
       </div>
     );
   }

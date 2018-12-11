@@ -1,2 +1,50 @@
 body {
+  background-color: azure;
+}
+.navBar {
+  background-color: White;
+  box-shadow: 0 1px 11px #7a7a7a;
+}
+.btn {
+  position: relative;
+  top: 30px;
+  color: #00053b;
+  font-family: "CenturyGothic-Bold";
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+}
+.btn-dark {
+  color: #ffffff;
+  font-family: "proxima_nova_light";
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 24px;
+  background-color: #1a2c56;
+}
+.material-icons {
+  position: relative;
+  top: 5px;
+}
+.selector {
+  position: relative;
+  top: 36px;
+  background-color: black;
+  color: white;
+  height: 29px;
+}
+.selector img {
+  position: relative;
+  left: -20px;
+  width: 30px;
+  height: 15px;
+  top: -8px;
+}
+.col-sm .States {
+  width: 50px;
+  box-sizing: content-box;
+  position: relative;
+  left: -58px;
+  top: -5px;
 }
